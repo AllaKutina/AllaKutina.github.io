@@ -194,17 +194,7 @@ document.addEventListener('click', function (event) {
 	};
 });
 
-//hide menu
-// function updateMenuList() {
-// 	var menuList = document.querySelector('.main-menu__list');
-// 	if (window.screen.width < 940) {
-// 		menuList.classList.add('main-menu__list_hidden');
-// 	} else if (window.screen.width > 940) {
-// 		menuList.classList.remove('main-menu__list_hidden');
-// 	}
-// }
-// updateMenuList()
-
+//sidenav
 function toggleSidenav() {
 	var menuList = document.querySelector('.main-menu__list');
 	if (menuList.classList.contains('main-menu__list_hidden') && window.screen.width < 500) {

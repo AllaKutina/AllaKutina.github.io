@@ -219,9 +219,6 @@ html input[disabled] {
       -moz-transition: 0.5s;
       transition: 0.5s;
       padding-top: 60px; } }
-  @media screen and (max-width: 426px) {
-    .main-menu__list {
-      width: 100%; } }
   .main-menu__list_hidden {
     display: none; }
 
